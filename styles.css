@@ -1,0 +1,57 @@
+body {
+    background-image: url(beans.jpg);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+div>img {
+    width: 100%;
+    margin: 50px;
+    margin-right: 0;
+}
+
+article {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 4%;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: lightsalmon;
+}
+
+.sloupce {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+}
+
+.obdelnik {
+    background-image: linear-gradient(to right, rgb(53, 29, 17), rgba(0, 0, 0, 0));
+    color: white;
+    width: 100%;
+    padding: 4%;
+}
+
+#nav {
+    list-style-type: none;
+}
